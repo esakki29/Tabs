@@ -1,5 +1,4 @@
 export default function TabContent({ data, activeTab, removeTab, mobile }) {
-  console.log(data, "content");
   return (
     <div className="tab__container ">
       {mobile &&

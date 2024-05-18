@@ -15,7 +15,6 @@ export default function App() {
 
   //remove active tab
   const removeTab = (idx) => {
-    console.log(idx, activeTab, tabData.length);
     const updatedData = tabData.filter((pet, i) => i !== idx);
     setTabData(updatedData);
     if (idx === tabData.length - 1) setActiveTab(tabData.length - 2);
